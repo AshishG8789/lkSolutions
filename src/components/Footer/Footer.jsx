@@ -30,7 +30,7 @@ const Footr = () => {
                             "Share your IDEA and We Will Make It Real.” We ensure the true worth of the valuable time
                             and money you invested in us by delivering the perfect product.
                         </Typography>
-                        <div style={{ paddingTop: "1.5rem" }}>
+                        {/* <div style={{ paddingTop: "1.5rem" }}>
                             {[
                                 "https://x.com/dortex_ai",
                                 "https://www.facebook.com/profile.php?id=61561315643620",
@@ -51,7 +51,7 @@ const Footr = () => {
                                     ></i>
                                 </IconButton>
                             ))}
-                        </div>
+                        </div> */}
                     </Grid>
                     <Grid item xs={6} md={2}>
                         <Typography variant="h6" fontWeight="bold">
