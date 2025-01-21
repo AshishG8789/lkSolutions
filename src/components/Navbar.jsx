@@ -17,7 +17,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme, styled } from "@mui/material/styles";
 import Container from "@mui/material/Container"; // Import Container from MUI
-import logo from "../assets/DortexAiWhite.png";
+import logo from "../assets/lk.png";
 import { Link as RouterLink } from "react-router-dom"; // Corrected import
 import { PopupMenu } from "../NavComp/NavMenuServices";
 import { menuItems } from "../Utils/constants";
