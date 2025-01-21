@@ -3,6 +3,7 @@ import { Grid, Typography, Link, IconButton, Divider, List, ListItem, Container 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import logo from "../../assets/lk.png";
+import logo1 from "../../assets/DortexAiWhite.png";
 
 const Footr = () => {
     // Array of important links
@@ -25,7 +26,10 @@ const Footr = () => {
             <Container maxWidth="lg">
                 <Grid container spacing={4}>
                     <Grid item xs={12} md={4}>
-                        <img src={logo} alt="Dortex AI Logo" style={{ width: "6rem" }} />
+                        <div style={{ display: "flex" }}>
+                            <img src={logo} alt="Dortex AI Logo" style={{ width: "6rem" }} />
+                            <img src={logo1} alt="Dortex AI Logo" style={{ width: "6rem" }} />
+                        </div>
                         <Typography variant="body2" style={{ marginTop: "1rem" }}>
                             "Share your IDEA and We Will Make It Real.” We ensure the true worth of the valuable time
                             and money you invested in us by delivering the perfect product.
