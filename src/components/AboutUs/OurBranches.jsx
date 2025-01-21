@@ -7,25 +7,25 @@ const branches = [
         title: "Head Office Chandigarh-Mohali",
         address: "431, Opposite Gillco valley, Landra Kharar road, Kharar, Punjab 140301, India",
         phone: "+91 98720 94149",
-        email: "info@dortexai.com",
+        email: "info@lksolutions.com",
     },
     {
         title: "NOIDA Office",
         address: "NOIDA, Uttar Pradesh, India",
         phone: "+91 98720 94149",
-        email: "info@dortexai.com",
+        email: "info@lksolutions.com",
     },
     {
         title: "JAIPUR Office ",
         address: "Jaipur, Rajasthan, India",
         phone: "+91 98720 94149",
-        email: "info@dortexai.com",
+        email: "info@lksolutions.com",
     },
     // {
     //   title: "GURUGRAM Office (Coming Soon)",
     //   address: "Gurugram, Haryana, India",
     //   phone: "+91 98720 94149",
-    //   email: "info@dortexai.com",
+    //   email: "info@lksolutions.com",
     // },
 ];
 

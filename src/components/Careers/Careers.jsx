@@ -6,7 +6,7 @@ import Navbar from "../Navbar";
 const jobListings = [
     {
         title: "AI/ML",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "AI/ML",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -17,7 +17,7 @@ const jobListings = [
     },
     {
         title: "App Developer",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "App Development",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -28,7 +28,7 @@ const jobListings = [
     },
     {
         title: "Full Stack Developer",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "Full Stack Development",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -39,7 +39,7 @@ const jobListings = [
     },
     {
         title: "Backend Developer",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "Backend Development",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -50,7 +50,7 @@ const jobListings = [
     },
     {
         title: "Web Developer",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "Web Development",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -61,7 +61,7 @@ const jobListings = [
     },
     {
         title: "UI/Ux Designer",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "UI/Ux Designer",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -72,7 +72,7 @@ const jobListings = [
     },
     {
         title: "Digital Marketing Specialist",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "Digital Marketing",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -83,7 +83,7 @@ const jobListings = [
     },
     {
         title: "HR Manager",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "HR",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -94,7 +94,7 @@ const jobListings = [
     },
     {
         title: "Sales Executive",
-        company: "DortexAi Pvt.Ltd.",
+        company: "LK Solutions Pvt.Ltd.",
         category: "Sales",
         urgency: "Urgent",
         jobType: "Contractual Full Time",
@@ -232,7 +232,7 @@ const Career = () => {
                         style={{ width: "24px", height: "24px", marginRight: "8px" }}
                     />
                     <Typography variant="h8" sx={{ color: "#000000", fontWeight: "Bold" }}>
-                        info@dortexai.com
+                        info@lksolutions.com
                     </Typography>
                 </Box>
             </Box>
