@@ -80,11 +80,7 @@ const ConnectForm = () => {
                 <Grid container spacing={4}>
                     {/* Left side: Text and social buttons */}
                     <Grid item xs={12} md={6}>
-                        <Typography
-                            variant="h4"
-                            fontWeight="bold"
-                            color="textPrimary"
-                        >
+                        <Typography variant="h4" fontWeight="bold" color="textPrimary">
                             Let's Work Together
                         </Typography>
                         <Typography variant="h6" color="textSecondary">
@@ -101,12 +97,9 @@ const ConnectForm = () => {
                                 "&:hover": { backgroundColor: "#533aa7" }, // Darker shade on hover
                             }}
                             onClick={() => {
-                                const message =
-                                    "Hi DortexAI Team,\nI want to connect to have a discussion about ";
+                                const message = "Hi LK Solutions Team,\nI want to connect to have a discussion about ";
                                 const phoneNumber = "+919872094149";
-                                const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                                    message
-                                )}`;
+                                const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                                 window.open(whatsappUrl, "_blank"); // Open WhatsApp in a new tab
                             }}
                         >
@@ -123,13 +116,9 @@ const ConnectForm = () => {
                                 />
                                 Office:
                             </Typography>
-                            <Typography
-                                variant="body1"
-                                fontWeight="bold"
-                                color="textPrimary"
-                            >
-                                431, Opposite Gillco valley, Landra Kharar road,
-                                SEC 115, Sector 115, Kharar, Punjab 140301
+                            <Typography variant="body1" fontWeight="bold" color="textPrimary">
+                                431, Opposite Gillco valley, Landra Kharar road, SEC 115, Sector 115, Kharar, Punjab
+                                140301
                             </Typography>
                             <Divider sx={{ margin: "10px 0" }} />
                             <Typography variant="h6" color="textSecondary">
@@ -141,12 +130,8 @@ const ConnectForm = () => {
                                 />
                                 Email:
                             </Typography>
-                            <Typography
-                                variant="body1"
-                                fontWeight="bold"
-                                color="textPrimary"
-                            >
-                                info@dortexai.com
+                            <Typography variant="body1" fontWeight="bold" color="textPrimary">
+                                info@lksolutions.com
                             </Typography>
                             <Divider sx={{ margin: "10px 0" }} />
                             <Typography variant="h6" color="textSecondary">
@@ -272,29 +257,16 @@ const ConnectForm = () => {
                                             variant="outlined"
                                             value={selectedService}
                                             onChange={(e) => {
-                                                setSelectedService(
-                                                    e.target.value
-                                                );
+                                                setSelectedService(e.target.value);
                                             }}
                                         >
                                             {menuItems
                                                 .filter(
-                                                    (item) =>
-                                                        item.text ===
-                                                            "Services" &&
-                                                        item.subMenu !==
-                                                            undefined
+                                                    (item) => item.text === "Services" && item.subMenu !== undefined
                                                 )[0]
-                                                .subMenu.filter(
-                                                    (item) =>
-                                                        item.title ===
-                                                        selectedTitle
-                                                )[0]
+                                                .subMenu.filter((item) => item.title === selectedTitle)[0]
                                                 .items.map((item) => (
-                                                    <MenuItem
-                                                        key={item.text}
-                                                        value={item.text}
-                                                    >
+                                                    <MenuItem key={item.text} value={item.text}>
                                                         {item.text}
                                                     </MenuItem>
                                                 ))}
