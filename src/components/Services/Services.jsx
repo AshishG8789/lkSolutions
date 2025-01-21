@@ -72,7 +72,7 @@ const Services = () => {
                     }}
                     onClick={(e) => {
                         e.preventDefault();
-                        window.open("mailto:info@dortexai.com?subject=We want to hire you for a project");
+                        window.open("mailto:info@lksolutions.com?subject=We want to hire you for a project");
                     }}
                 >
                     Hire Us

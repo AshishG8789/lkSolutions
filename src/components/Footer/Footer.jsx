@@ -98,13 +98,13 @@ const Footr = () => {
                         </div>
                         <div style={{ display: "flex", alignItems: "center", marginTop: "0.5rem" }}>
                             <EmailIcon sx={{ color: "white", marginRight: "0.5rem" }} />
-                            <Typography variant="body2">info@dortexai.com</Typography>
+                            <Typography variant="body2">info@lksolutions.com</Typography>
                         </div>
                     </Grid>
                 </Grid>
                 <Divider style={{ margin: "2rem 0", backgroundColor: "white" }} />
                 <Typography variant="body2" align="center" fontWeight="medium" color="white">
-                    Copyright © 2024 DortexAI Pvt Ltd, All Rights Reserved.
+                    Copyright © 2024 LK Solutions Pvt Ltd, All Rights Reserved.
                 </Typography>
             </Container>
         </div>
