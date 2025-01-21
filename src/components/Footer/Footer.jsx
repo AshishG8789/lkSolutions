@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Typography, Link, IconButton, Divider, List, ListItem, Container } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
-import logo from "../../assets/DortexAiWhite.png";
+import logo from "../../assets/lk.png";
 
 const Footr = () => {
     // Array of important links
@@ -92,9 +92,7 @@ const Footr = () => {
                         </Typography>
                         <div style={{ display: "flex", alignItems: "center", marginTop: "1rem" }}>
                             <LocationOnIcon sx={{ color: "white", marginRight: "0.5rem" }} />
-                            <Typography variant="body2">
-                                431, Opposite Gillco valley, Landra Kharar road, Kharar, Punjab 140301
-                            </Typography>
+                            <Typography variant="body2">Jaipur, Rajasthan, India</Typography>
                         </div>
                         <div style={{ display: "flex", alignItems: "center", marginTop: "0.5rem" }}>
                             <EmailIcon sx={{ color: "white", marginRight: "0.5rem" }} />

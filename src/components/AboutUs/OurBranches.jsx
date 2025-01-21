@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 const branches = [
     {
         title: "Head Office Chandigarh-Mohali",
-        address: "431, Opposite Gillco valley, Landra Kharar road, Kharar, Punjab 140301, India",
+        address: "Jaipur, Rajasthan, India",
         phone: "+91 98720 94149",
         email: "info@lksolutions.com",
     },
