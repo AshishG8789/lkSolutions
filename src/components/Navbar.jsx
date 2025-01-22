@@ -18,7 +18,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme, styled } from "@mui/material/styles";
 import Container from "@mui/material/Container"; // Import Container from MUI
 import logo from "../assets/lk.png";
-import logo1 from "../assets/DortexAiWhite.png";
 import { Link as RouterLink } from "react-router-dom"; // Corrected import
 import { PopupMenu } from "../NavComp/NavMenuServices";
 import { menuItems } from "../Utils/constants";
@@ -71,7 +70,6 @@ const Navbar = () => {
                                     }}
                                 >
                                     <img src={logo} alt="Logo" width={100} height={100} />
-                                    <img src={logo1} alt="Logo" width={100} height={100} />
                                 </Box>
                             </RouterLink>
                         )}

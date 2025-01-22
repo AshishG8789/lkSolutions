@@ -117,8 +117,7 @@ const ConnectForm = () => {
                                 Office:
                             </Typography>
                             <Typography variant="body1" fontWeight="bold" color="textPrimary">
-                                431, Opposite Gillco valley, Landra Kharar road, SEC 115, Sector 115, Kharar, Punjab
-                                140301
+                                Jaipur, Rajasthan, India
                             </Typography>
                             <Divider sx={{ margin: "10px 0" }} />
                             <Typography variant="h6" color="textSecondary">

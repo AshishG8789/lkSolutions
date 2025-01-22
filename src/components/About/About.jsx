@@ -119,7 +119,8 @@ const About = () => {
                                     textAlign: { xs: "center", md: "left" },
                                 }}
                             >
-                                years of building bespoke software, transforming businesses across industries.
+                                years of building bespoke software, transforming businesses across industries. with
+                                Dortex AI
                             </Typography>
                         </Box>
                         <Box>
